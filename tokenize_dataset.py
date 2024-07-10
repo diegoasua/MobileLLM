@@ -13,7 +13,7 @@ from tqdm.notebook import tqdm
 OUTPUT_DIR = "basepath/1"  # Directory to save output files
 TOKENIZER_DIR = "configs/125M"  # Directory containing tokenizer files
 # set higher than total samples. Training code only supports 1 file/node
-SAMPLES_PER_FILE = 1_000_000_000  # Number of samples per output file
+SAMPLES_PER_FILE = 100_000_000  # Number of samples per output file
 DATASET_NAME = "HuggingFaceFW/fineweb-edu"
 DATASET_CONFIG = "sample-100BT"
 TOTAL_TOKENS = 100_000_000_000  # 100B tokens
